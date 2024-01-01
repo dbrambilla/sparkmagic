@@ -7,3 +7,4 @@ jupyter>=1,<2
 pandas>=0.17.1
 numpy
 notebook>=4.2
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
