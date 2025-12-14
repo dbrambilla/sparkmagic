@@ -9,5 +9,6 @@ requests
 ipykernel>=4.2.2,<5
 ipywidgets>5.0.0,<8.0
 notebook>=4.2,<6.0
-tornado>=4
+tornado>=6.5.3
 requests_kerberos>=0.8.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
